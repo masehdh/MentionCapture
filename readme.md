@@ -29,7 +29,7 @@ UNSUB_TOKEN_SECRET=6f45275935188dd0eadeb204bd1b299bc6de7ddd98fb2078f28f728e6ea31
 DOMAIN=localhost
 PASSCODE=passcode
 
-We don't push this code to github because it contains secrets. So when we clone for production, we will need to set these manually, and to different values. However, we should note the secrets down somewhere in case the server crashes. Otherwise, we won't be able to unhash data.
+These are just dummy values for secrets of course. We don't push actual secrets to github because it contains...secrets. So when we clone for production, we will need to set these manually, and to different values. However, we should note the secrets down somewhere in case the server crashes. Otherwise, we won't be able to unhash data.
 
 # Vue
 The client folder was built using @vue/cli node module. If you want to delete it and build one from scratch, here are the steps:
