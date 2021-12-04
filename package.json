@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "NODE_ENV=production node server/index.js",
     "dev": "DEBUG=express-session node server/index.js"
+=======
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+>>>>>>> 338438b37334936b42cb2f159914df947635cfdb
   },
   "author": "Shareef and Maseh",
   "license": "MIT",
